@@ -1,0 +1,15 @@
+{
+  "name": "04_node_user",
+  "version": "1.0.0",
+  "description": "* Official node images have a node user * But it's not used by default * Do this after apt/apk and npm i -g * Do this before npm i * May cause persmissions issues with write access * May require chrown node:node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

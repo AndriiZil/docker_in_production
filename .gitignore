@@ -1,0 +1,5 @@
+# WebStorm app
+.idea
+
+# Node Modules
+node_modules

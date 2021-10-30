@@ -1,0 +1,15 @@
+{
+  "name": "06_process_managment",
+  "version": "1.0.0",
+  "description": "* No need for nodemon, forever, or pm2 on server * We will use nodemon in dev for file watch later * Docker manages app start, stop, restart, healthcheck * Node multi-thread: Docker manages multiple \"replicas\" * One npm/node problem: They don't listen for proper shutdown signal by default",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "18.1.0"
+  }
+}
